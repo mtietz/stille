@@ -1,0 +1,23 @@
+/* Stille's original brand tokens. No framework dependency. */
+:root {
+  color-scheme: light;
+  --stille-purple: #a020ff;
+  --stille-purple-hover: #8a0de8;
+  --stille-on-purple: #ffffff;
+  --stille-background: #faf8ff;
+  --stille-surface: #ffffff;
+  --stille-text: #1a1125;
+  --stille-text-muted: #665b73;
+  --stille-border: #e4dced;
+  --stille-focus-ring: #a020ff;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --stille-background: #0e0914;
+  --stille-surface: #1a1224;
+  --stille-text: #f8f5ff;
+  --stille-text-muted: #b7abc7;
+  --stille-border: #362744;
+  --stille-focus-ring: #cc8aff;
+}
